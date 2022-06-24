@@ -1,0 +1,164 @@
+ /* header */
+* {
+      margin: 0;
+      padding: 0;
+      font-family: 'poppins';
+      box-sizing: border-box;
+}
+
+.header {
+      height: 62vh;
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./zomato-images/shutterstock_348320018@2x-copy.png') no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+}
+
+ul {
+      display: flex;
+      justify-content: end;
+      padding: 30px;
+      margin-right: 77px;
+}
+
+li {
+      display: inline;
+      color: white;
+      font-weight: 400;
+      font-size: 14px;
+}
+
+li.login {
+      padding: 7px 32px;
+}
+
+li.box {
+      border: 0.1px solid white;
+      padding: 7px 13px;
+}
+
+li.login a, li.box a{
+      text-decoration: none;
+      color: white;
+}
+.heading {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 26vh;
+}
+
+.heading h1 {
+      color: white;
+      font-weight: 500;
+}
+
+.subheading {
+      display: flex;
+      justify-content: center;
+      padding: 0px 40px;
+}
+
+.subheading input {
+      padding: 13px;
+}
+
+.subheading .location input {
+      margin-right: 26px;
+      width: 212px;
+      text-align: center;
+      padding-right: 37px;
+}
+
+.search i {
+      padding: 17px 17px;
+      position: absolute;
+      color: grey;
+}
+
+.icon {
+      padding: 5px;
+      min-width: 40px;
+}
+
+#searchin {
+      padding-left: 44px;
+      padding-right: 80px;
+}
+
+/* content */
+
+.content {
+      margin: 50px 80px;
+}
+
+.head h2 {
+      color: #192F60;
+}
+
+.subhead p {
+      color: #8C96AB;
+      margin: 7px 0px;
+}
+
+.subcontent {
+      display: flex;
+      margin: 35px 0px;
+      flex-wrap: wrap;
+}
+
+.box1 {
+      display: flex;
+      border: 2px solid rgba(128, 128, 128, 0.336);
+      width: 365px;
+      height: 133px;
+      margin-right: 20px;
+      margin-bottom: 40px;
+}
+
+.box1 .img {
+      width: 240px;
+      height: 129px;
+      background-image: url('./zomato-images/breakfast.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+
+.box1 .img2{
+      width: 240px;
+      height: 129px;
+      background-image: url('./zomato-images/shutterstock_476864884.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+
+.box1 .img3{
+      width: 240px;
+      height: 129px;
+      background-image: url('./zomato-images/snacks.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+
+.box1 .img4{
+      width: 240px;
+      height: 129px;
+      background-image: url('./zomato-images/dinner.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+.description {
+      margin: 31px 15px;
+}
+
+.description h4 {
+      color: #192F60;
+      font-weight: 600;
+      text-align: left;
+}
+
+.description p {
+      display: inline;
+      color: #8C96AB;
+      font-size: 15px;
+      text-align: right;
+}
